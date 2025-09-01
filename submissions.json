@@ -1,5 +1,16 @@
 [
   {
+    "id": 383,
+    "title": "Ransom Note",
+    "title_slug": "ransom-note",
+    "difficulty": "Easy",
+    "skills": [
+      "Counting",
+      "Hash Table",
+      "String"
+    ]
+  },
+  {
     "id": 412,
     "title": "Fizz Buzz",
     "title_slug": "fizz-buzz",
