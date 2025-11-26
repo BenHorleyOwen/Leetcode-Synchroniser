@@ -32,6 +32,17 @@
     ]
   },
   {
+    "id": 4,
+    "title": "Median of Two Sorted Arrays",
+    "title_slug": "median-of-two-sorted-arrays",
+    "difficulty": "Hard",
+    "skills": [
+      "Array",
+      "Binary Search",
+      "Divide and Conquer"
+    ]
+  },
+  {
     "id": 128,
     "title": "Longest Consecutive Sequence",
     "title_slug": "longest-consecutive-sequence",
