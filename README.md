@@ -10,6 +10,7 @@
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | Medium | `Linked List` `Math` `Recursion` |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | Medium | `Hash Table` `Sliding Window` `String` |
 | 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | `Array` `Binary Search` `Divide and Conquer` |
+| 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | `Stack` `String` |
 | 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) | Medium | `Array` `Hash Table` `Union-Find` |
 | 0383 | [Ransom Note](https://leetcode.com/problems/ransom-note) | Easy | `Counting` `Hash Table` `String` |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | Easy | `Math` `Simulation` `String` |
