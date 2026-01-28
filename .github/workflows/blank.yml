@@ -1,11 +1,14 @@
 name: LeetCode Synchronizer
+
 on: workflow_dispatch
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Run LeetCode Synchronizer
-        uses: ./
+        uses: ./.github/actions
         with:
           GITHUB_TOKEN: ${{ github.token }}
           LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
