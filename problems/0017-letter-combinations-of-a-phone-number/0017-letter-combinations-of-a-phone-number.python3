@@ -1,0 +1,23 @@
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+        if not digits: return []
+
+        letterComb = []
+        stack = [(0, '')]
+        letterdict = {
+            "2":"abc",
+            "3":"def",
+            "4":"ghi",
+            "5":"jkl",
+            "6":"mno",
+            "7":"pqrs",
+            "8":"tuv",
+            "9":"wxyz"
+        }
+        while stack:
+            index, currentString = stack.pop() #take out previous letter collection
+            if index == len(digits): letterComb.append(currentString) # if no more additions, add to result
+            else:
+                for letter in letterdict[digits[index]]: # pull each letter assigned to each number
+                    stack.append((index+1, currentString+letter)) # add back to stack with the additional letter
+        return letterComb
